@@ -9,7 +9,7 @@ ONE Store AdMax SDK 0.9.8 is a service that delivers advertisements to users usi
 
 ### Importing ONE AdMax for Unity Plugin
 From the Unity menu bar, navigate to Assets > Import Package > Custom Package.
-This creates the Assets/OneStoreCorpPlugins/com.oneadmax.global folder.
+This creates the Assets/OneStoreCorpPlugins/ONEAdMax folder.
 
 Refer to the [SDK guide](https://one-admax-organization.gitbook.io/one-admax-sdk/unityplugin) for more information
 
