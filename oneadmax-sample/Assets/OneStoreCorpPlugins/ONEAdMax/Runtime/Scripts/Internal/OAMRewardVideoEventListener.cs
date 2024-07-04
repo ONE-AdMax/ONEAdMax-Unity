@@ -10,7 +10,7 @@ namespace ONEAdMax.Internal
         public event Action OnOpened = delegate { };
         public event Action<OAMError> OnOpenFailed = delegate { };
         public event Action OnClosed = delegate { };
-        public event Action<int, bool> OnCompleted = delegate { };
+        public event Action<int, bool, string, bool> OnCompleted = delegate { };
         public event Action OnClicked = delegate { };
         
         public OAMRewardVideoEventListener() : base(Constants.IOAMRewardVideoEventListener) {}
@@ -31,7 +31,7 @@ namespace ONEAdMax.Internal
 
         void onClosed() => OnClosed.Invoke();
 
-        void onCompleted(int adNetworkNo, bool completed) => OnCompleted.Invoke(adNetworkNo, completed);
+        void onCompleted(int adNetworkNo, bool completed, string bidId, bool enablePostback) => OnCompleted.Invoke(adNetworkNo, completed, bidId, enablePostback);
 
         void onClicked() => OnClicked.Invoke();
     }  

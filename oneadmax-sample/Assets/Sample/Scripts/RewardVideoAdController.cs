@@ -89,9 +89,9 @@ namespace ONEAdMax.Samples
             };
 
             // Raised when the ad completed full screen content.
-            ad.OnCompleted += (int adNetworkNo, bool compledted) =>
+            ad.OnCompleted += (int adNetworkNo, bool compledted, string bidId, bool enablePostback) =>
             {
-                Debug.Log("Reward video ad completed : " + "adNetworkNo=" + adNetworkNo + ", compledted=" + compledted);
+                Debug.Log("Reward video ad completed : " + "adNetworkNo=" + adNetworkNo + ", compledted=" + compledted + ", bidId=" + bidId + ", enablePostback=" + enablePostback);
             };
 
             // Raised when a click is recorded for an ad.
