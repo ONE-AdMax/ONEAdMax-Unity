@@ -13,7 +13,7 @@ namespace ONEAdMax
         public event Action OnOpened;
         public event Action<OAMError> OnOpenFailed;
         public event Action OnClosed;
-        public event Action<int, bool, string, bool> OnCompleted;
+        public event Action<int, bool> OnCompleted;
         public event Action OnClicked;
         
         public OAMRewardVideo()
@@ -74,11 +74,11 @@ namespace ONEAdMax
                 }
             };
 
-            listener.OnCompleted += (int adNetworkNo, bool completed, string bidId, bool enablePostback) =>
+            listener.OnCompleted += (int adNetworkNo, bool completed) =>
             {
                 if (OnCompleted != null)
                 {
-                    OAMEventDispatcher.RunOnMainThread(() => OnCompleted(adNetworkNo, completed, bidId, enablePostback));
+                    OAMEventDispatcher.RunOnMainThread(() => OnCompleted(adNetworkNo, completed));
                 }
             };
 
