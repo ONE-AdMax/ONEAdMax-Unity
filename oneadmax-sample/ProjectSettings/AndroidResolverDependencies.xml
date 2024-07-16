@@ -1,6 +1,6 @@
 <dependencies>
   <packages>
-    <package>com.oneadmax.sdk:sdk-ads-unity:1.1.1</package>
+    <package>com.oneadmax.sdk:sdk-ads-unity:1.1.2</package>
   </packages>
   <files />
   <settings>
