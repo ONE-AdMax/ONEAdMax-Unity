@@ -4,7 +4,8 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.oneadmax.sdk:sdk-ads-unity:1.1.1' // Assets/OneStoreCorpPlugins/ONEAdMax/Editor/ONEAdMaxDependencies.xml:6
+    implementation 'com.oneadmax.sdk:sdk-ads-unity:1.0.2' // Assets/OneStoreCorpPlugins/ONEAdMax/Editor/ONEAdMaxDependencies.xml:6
+    implementation 'com.onestorecorp.sdk:sdk-configuration-kr:1.0.0' // Assets/OneStoreCorpPlugins/ONEAdMax/Editor/ONEAdMaxDependencies.xml:7
 // Android Resolver Dependencies End
 **DEPS**}
 
