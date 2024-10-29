@@ -11,7 +11,7 @@ namespace ONEAdMax.Samples
     {
         // The ONEAdMax Unity plugin needs to be run only once.
         private static bool _initialized = false;
-        
+
         /// <summary>
         /// Demonstrates how to configure ONEAdMax Unity plugin.
         /// </summary>
@@ -22,7 +22,6 @@ namespace ONEAdMax.Samples
                 Debug.Log("ONEAdMaxController initialize.");
                 // Expose the detailed logs of the ONEAdMax SDK for development.
                 ONEAdMaxClient.SetLogEnable(true);
-                ONEAdMaxClient.TagForChildDirectedTreatment(true);
                 ONEAdMaxClient.Initialize(() => { _initialized = true; });
             }
         }
