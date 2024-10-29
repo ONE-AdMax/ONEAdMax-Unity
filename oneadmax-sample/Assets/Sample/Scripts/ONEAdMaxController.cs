@@ -22,7 +22,7 @@ namespace ONEAdMax.Samples
                 Debug.Log("ONEAdMaxController initialize.");
                 // Expose the detailed logs of the ONEAdMax SDK for development.
                 ONEAdMaxClient.SetLogEnable(true);
-                
+                ONEAdMaxClient.TagForChildDirectedTreatment(true);
                 ONEAdMaxClient.Initialize(() => { _initialized = true; });
             }
         }

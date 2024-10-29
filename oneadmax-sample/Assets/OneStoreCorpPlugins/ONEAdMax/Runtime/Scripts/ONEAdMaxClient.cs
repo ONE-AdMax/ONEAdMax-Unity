@@ -107,5 +107,10 @@ namespace ONEAdMax
         {
             Instance.oneAdMax.CallStatic("setUserId", JniHelper.GetApplicationContext(), userId);
         }
+
+         public static void TagForChildDirectedTreatment(bool flag)
+        {
+            Instance.oneAdMax.CallStatic("tagForChildDirectedTreatment", JniHelper.GetApplicationContext(), flag);
+        }
     }  
 }
