@@ -1,8 +1,8 @@
-# ONE AdMax Unity plugin 1.2.0
+# ONE AdMax Unity plugin 1.2.1
 
 ## Overview
 
-ONE AdMax SDK 1.2.0 is a service that delivers advertisements to users using the advertising system of the One store Co., Ltd. for products implemented in Android apps, and provides advertising revenue to developers. To bind this SDK, it is necessary to have products registered in the [ONE Store Developer Center](http://dev.onestore.co.kr/), and prior registration with [ONE AdMax](http://oneadmax.com) as a media platform is required.
+ONE AdMax SDK 1.2.1 is a service that delivers advertisements to users using the advertising system of the One store Co., Ltd. for products implemented in Android apps, and provides advertising revenue to developers. To bind this SDK, it is necessary to have products registered in the [ONE Store Developer Center](http://dev.onestore.co.kr/), and prior registration with [ONE AdMax](http://oneadmax.com) as a media platform is required.
 
 
 ## ONE AdMax SDK
@@ -11,7 +11,7 @@ ONE AdMax SDK 1.2.0 is a service that delivers advertisements to users using the
 From the Unity menu bar, navigate to Assets > Import Package > Custom Package.<br/>
 This creates the Assets/OneStoreCorpPlugins/ONEAdMax folder.
 
-Please make sure to use the latest version, 1.2.0, to ensure compatibility with Android OS support and bug fixes.
+Please make sure to use the latest version, 1.2.1, to ensure compatibility with Android OS support and bug fixes.
 Verify the exact version of the **In-App SDK** or **App Licensing Checker SDK** to install the compatible version of the **ONE AdMax SDK**.
 
 <table>
@@ -20,9 +20,8 @@ Verify the exact version of the **In-App SDK** or **App Licensing Checker SDK** 
     <td>Compatible with</td>
   </tr>
   <tr>
-    <td>1.2.0</td>
+    <td>1.2.1</td>
     <td>
-      • ONE Store In app SDK ver 19.01.00<br>
       • ONE Store In app SDK ver 21.01.00<br>
       • ONE Store App License checker 2.1.1
     </td>
@@ -50,6 +49,10 @@ Need to add `<queries>` to your `Androidmanifest.xml` file.
 Refer to the [SDK guide](https://one-admax-organization.gitbook.io/one-admax-sdk/unityplugin) for more information
 
 ## Change Note
+* 2024-12-18
+    * Fixed crash issue during AppLovin mediation initialization
+    * Ensured compatibility with AppLovin SDK version 13.0.1
+    * Supported compatibility with Mezzo Media v300 (20241031)
 * 2024-10-29
     * Added API for COPPA compliance
     * Removed AppLovin initialization from the manifest
