@@ -1,14 +1,14 @@
 <dependencies>
   <packages>
-    <package>com.oneadmax.sdk:sdk-ads-unity:1.2.0</package>
+    <package>com.oneadmax.sdk:sdk-ads-unity:1.2.2</package>
   </packages>
   <files />
   <settings>
-    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
     <setting name="bundleId" value="com.oneadmax.global.sample.unity" />
     <setting name="explodeAars" value="False" />
     <setting name="gradleBuildEnabled" value="True" />
-    <setting name="gradlePropertiesTemplateEnabled" value="False" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
     <setting name="gradleTemplateEnabled" value="True" />
     <setting name="installAndroidPackages" value="True" />
     <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
