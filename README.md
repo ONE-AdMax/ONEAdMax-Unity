@@ -20,7 +20,7 @@ Verify the exact version of the **In-App SDK** or **App Licensing Checker SDK** 
     <td>Compatible with</td>
   </tr>
   <tr>
-    <td>1.2.2</td>
+    <td>1.2.3</td>
     <td>
       • ONE Store In-app SDK <strong>v21.01.00 or higher</strong><br>
       • ONE Store App License Checker <strong>v2.1.1 or higher</strong>
@@ -51,6 +51,7 @@ Refer to the [SDK guide](https://one-admax-organization.gitbook.io/one-admax-sdk
 ## Change Note
 * 2026-01-08
   * Fixed Unity Ads close button visibility on Android Edge-to-Edge.
+  * Upgraded the recommended Unity version from 2022.3.11f1 to 2022.3.62f3.
 * 2025-07-22
 	* Mediation compatibility update.
 	* Removed AdFit mediation.
