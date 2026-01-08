@@ -49,6 +49,8 @@ Need to add `<queries>` to your `Androidmanifest.xml` file.
 Refer to the [SDK guide](https://one-admax-organization.gitbook.io/one-admax-sdk/unityplugin) for more information
 
 ## Change Note
+* 2026-01-08
+  * Fixed Unity Ads close button visibility on Android Edge-to-Edge.
 * 2025-07-22
 	* Mediation compatibility update.
 	* Removed AdFit mediation.
