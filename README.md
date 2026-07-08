@@ -22,8 +22,8 @@ Verify the exact version of the **In-App SDK** or **App Licensing Checker SDK** 
   <tr>
     <td>1.2.4</td>
     <td>
-      • ONE Store In-app SDK <strong>v21.04.00 or higher</strong><br>
-      • ONE Store App License Checker <strong>v2.2.1 or higher</strong>
+      • ONE Store In-app SDK <strong>v21.01.00 or higher</strong><br>
+      • ONE Store App License Checker <strong>v2.1.1 or higher</strong>
     </td>
   </tr>
 </table>
